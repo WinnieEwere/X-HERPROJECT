@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: f1f3f4;
+    font-family: sans-serif;
+}
+
+footer {
+    background-color: rgb(15, 230, 238);
+    text-align: center;
+    color: black;
+    /*margin: 20px;
+    padding: 20px;*/
+}
+
+
+/*  ABOUT US */
+
+.team {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1.5rem;
+    align-items: 1rem;
+    margin-bottom: 2rem;
+}
+
+.teamh1 {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.vis {
+    background-color: rgba(223, 166, 62, 0.699);
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thick;
+    font-size: 18px;
+    color: white;
+}
+
+.navcolor {
+    background-color: rgb(15, 230, 238);
+    font-size: 18px;
+}
+
+h2 {
+    color: black;
+}
+
+.nav-item active {
+    color: white;
+}
+
+.textnav {
+    color: white;
+}
+
+.myform {
+    background-color: rgb(223, 237, 238);
+}
+
+.sub {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.apply {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.para {
+    text-align: center;
+    font-size: large;
+}
+
+button:hover {
+    background-color: rgb(15, 230, 238);
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.myteam {
+    background-color: orange;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: thick;
+    font-size: 18px;
+    color: black;
+}
+
+.pcol {
+    font-size: large;
+    color: black;
+}
+
+.underl {
+    text-decoration: underline;
+}
+
+.mytext {
+    color: white;
+}
+
+.mylogo {
+    width: 6rem;
+    border-radius: 5px;
+}
+
+.mynav {
+    background-color: rgb(15, 230, 238);
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
+
+.linknav {
+    margin: 20px 20px;
+}
+
+
+/* .banner {
+    font-size: 4em;
+    font-weight: 600;
+    line-height: 1;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+} */
+
+.theteam {
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+}
+
+.myp {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.wom {
+    width: 200px;
+}
